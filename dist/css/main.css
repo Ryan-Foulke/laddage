@@ -100,17 +100,17 @@ body {
 .homeIMG1 {
   margin: auto 1vw;
   float: left;
-  height: 30vh; }
+  height: 25vh; }
 
 .logIMG {
   position: static;
   margin-top: 20vh;
-  height: 3vh; }
+  height: 4vh; }
 
 .homeIMG2 {
   margin: auto 1vw;
   float: right;
-  height: 30vh; }
+  height: 25vh; }
 
 .portrait {
   width: 20vw;
@@ -186,6 +186,10 @@ body {
   display: inline-block;
   margin: 0 10px; }
 
+.home-text {
+  margin: auto;
+  width: 75%; }
+
 h1,
 h2,
 h3 {
@@ -194,17 +198,20 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 17vh;
-    margin: 2vh;
-    font-family: "Patua One", cursive; }
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    font-family: "Patua One", cursive;
+    text-align: center; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin: 0vh 5vw;
+    margin: 0vh;
     background: rgba(255, 255, 255, 0.5);
     font-family: "Montserrat", sans-serif;
     font-style: medium;
     font-size: 3vh;
-    color: #444; }
+    color: #444;
+    text-align: center; }
   h1.page-title,
   h2.page-title,
   h3.page-title {
