@@ -105,7 +105,7 @@ body {
 .logIMG {
   position: static;
   margin-top: 20vh;
-  height: 3vh; }
+  height: 4vh; }
 
 .homeIMG2 {
   margin: auto 1vw;
@@ -186,6 +186,10 @@ body {
   display: inline-block;
   margin: 0 10px; }
 
+.home-text {
+  margin: auto;
+  width: 75%; }
+
 .main-text {
   margin: auto;
   width: 75%; }
@@ -200,7 +204,8 @@ h3 {
     font-size: 17vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    font-family: "Patua One", cursive; }
+    font-family: "Patua One", cursive;
+    text-align: center; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -209,7 +214,8 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-style: medium;
     font-size: 3vh;
-    color: #444; }
+    color: #444;
+    text-align: center; }
   h1.page-title,
   h2.page-title,
   h3.page-title {

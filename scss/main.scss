@@ -19,7 +19,7 @@ body {
 .logIMG {
   position: static;
   margin-top: 20vh;
-  height: 3vh;
+  height: 4vh;
 }
 .homeIMG2 {
   margin: auto 1vw;
@@ -72,7 +72,6 @@ body {
   position: absolute;
   margin-top: 120px;
   left: 20vw;
-  // left: 15vw;
   width: 65vw;
 }
 
@@ -113,6 +112,10 @@ body {
 }
 
 // Text
+.home-text {
+  margin: auto;
+  width: 75%;
+}
 
 .main-text {
   margin: auto;
@@ -129,6 +132,7 @@ h3 {
     margin-top: 2vh;
     margin-bottom: 2vh;
     font-family: "Patua One", cursive;
+    text-align: center;
   }
   &.sm-heading {
     // margin: 0vh 5vw;
@@ -139,6 +143,7 @@ h3 {
     font-style: medium;
     font-size: 3vh;
     color: #444;
+    text-align: center;
   }
   &.page-title {
     font-size: 12vh;
@@ -779,177 +784,5 @@ h3 {
 html {
   scroll-behavior: smooth;
 }
-
-// body,
-// html {
-//   height: 200%;
-// }
-
-// a {
-//   color: #fff;
-//   text-decoration: none;
-// }
-
-// header {
-//   position: fixed;
-//   z-index: 2;
-//   width: 100%;
-// }
-
-// .text-secondary {
-//   color: $secondary-color;
-// }
-
-// section {
-//   padding: 4rem;
-//   // height: 100%;
-//   min-height: calc(100vh - 60px);
-//   .icons {
-//     margin-top: 1rem;
-//     a {
-//       padding: 0.4rem;
-//       &:hover {
-//         color: $secondary-color;
-//         @include easeOut();
-//       }
-//     }
-//   }
-//   &#home {
-//     overflow: hidden;
-//     h1 {
-//       margin-top: 20vh;
-//       margin-bottom: 10vh;
-//     }
-//   }
-// }
-
-// .resize {
-//   width: 400px;
-//   height: auto;
-// }
-
-// .about-info {
-//   display: grid;
-//   grid-gap: 30px;
-//   grid-template-areas:
-//     "bioimage bio bio"
-//     "job1 job2 job3";
-//   grid-template-columns: repeat(3, 1fr);
-
-//   .bio-image {
-//     grid-area: bioimage;
-//     margin: auto;
-//     border-radius: 50%;
-//     border: $secondary-color 3px solid;
-//     width: 300px;
-//     height: auto;
-//   }
-
-//   .bio {
-//     grid-area: bio;
-//     font-size: 1.5rem;
-//   }
-
-//   .job-1 {
-//     grid-area: job1;
-//   }
-
-//   .job-2 {
-//     grid-area: job2;
-//   }
-
-//   .job-3 {
-//     grid-area: job3;
-//   }
-
-//   .job {
-//     background: lighten($primary-color, 5);
-//     padding: 0.5rem;
-//     border-bottom: $secondary-color 5px solid;
-//   }
-// }
-
-// //Work/Projects
-// .projects {
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
-//   grid-gap: 0.7rem;
-//   img {
-//     width: 100%;
-//     border: 3px white solid;
-
-//     &:hover {
-//       opacity: 0.5;
-//       border-color: $secondary-color;
-//       @include easeOut;
-//     }
-//   }
-
-//   h2 {
-//     padding: 0.5rem 1.5rem;
-//     background: $secondary-color;
-//     color: set-text-color($secondary-color);
-//   }
-// }
-
-// //Contact Page
-
-// .boxes {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-evenly;
-//   align-items: center;
-//   margin-top: 1rem;
-
-//   div {
-//     font-size: 2rem;
-//     border: #fff 3px solid;
-//     padding: 1.5rem 2.5rem;
-//     margin-bottom: 0.3rem;
-//     @include easeOut;
-
-//     &:hover {
-//       padding: 0.5rem 1.5rem;
-//       background: $secondary-color;
-//       color: set-text-color($secondary-color);
-//       span {
-//         color: set-text-color($secondary-color);
-//       }
-//     }
-//   }
-// }
-
-// //button styles
-// .btn {
-//   display: block;
-//   padding: 0.5rem 1rem;
-//   border: 0;
-//   margin-bottom: 0.3rem;
-
-//   &:hover {
-//     background: $secondary-color;
-//     color: set-text-color($secondary-color);
-//   }
-// }
-
-// .btn-dark {
-//   @extend .btn;
-//   background: darken($primary-color, $amount: 50);
-//   color: #fff;
-// }
-
-// .btn-light {
-//   @extend .btn;
-//   background: lighten($primary-color, $amount: 50);
-//   color: #333;
-// }
-
-// #main-footer {
-//   text-align: center;
-//   padding: 1rem;
-//   background: darken($primary-color, $amount: 10);
-//   color: set-text-color($primary-color);
-//   height: 60px;
-// }
 
 @import "mobile";
