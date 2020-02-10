@@ -41,15 +41,15 @@ body {
 #wireframe-left {
   position: absolute;
   margin-top: 7vw;
-  left: 20vw;
-  height: 30vw;
+  left: 21vw;
+  height: 25vw;
 }
 
 #wireframe-right {
   position: absolute;
   margin-top: 7vw;
-  right: 20vw;
-  height: 30vw;
+  right: 21vw;
+  height: 25vw;
 }
 
 #Apfyt-wireframe-right {
@@ -95,9 +95,9 @@ body {
   height: 1vw;
   width: 1vw;
   background-color: grey;
-  border-radius: 50%;
+  border-radius: 100%;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 1vw;
 }
 
 .dotApfyt {
@@ -106,9 +106,9 @@ body {
   height: 1vw;
   width: 1vw;
   background-color: grey;
-  border-radius: 50%;
+  border-radius: 100%;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 1vw;
 }
 
 // Text
@@ -237,7 +237,7 @@ h3 {
 }
 
 .read-more-hive {
-  border: 1.5px solid #444;
+  border: 0.15vw solid #444;
   border-radius: 30px;
   width: 10vw;
   height: 4vw;
@@ -256,12 +256,12 @@ h3 {
   transition: 0.3s;
   &:hover {
     color: #d94f5c;
-    border: 1.5px solid #d94f5c;
+    border: 0.15vw solid #d94f5c;
   }
 }
 
 .read-more-Apfyt {
-  border: 1.5px solid #444;
+  border: 0.15vw solid #444;
   border-radius: 30px;
   width: 10vw;
   height: 4vw;
@@ -280,7 +280,7 @@ h3 {
   transition: 0.3s;
   &:hover {
     color: #d94f5c;
-    border: 1.5px solid #d94f5c;
+    border: 0.15vw solid #d94f5c;
   }
 }
 
@@ -307,20 +307,17 @@ h3 {
   margin: 0 auto;
   margin-top: 2.5vw;
   width: 24px;
-  height: 100px;
 }
 
 .m_scroll_arrows {
   display: block;
-  width: 5px;
-  height: 5px;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
   transform: rotate(45deg);
 
-  border-right: 2px solid #444;
-  border-bottom: 2px solid #444;
-  margin: 0 0 3px 0.25vw;
+  border-right: 0.15vw solid #444;
+  border-bottom: 0.15vw solid #444;
+  margin: 0 0 3px 0.245vw;
 
   width: 1.1vw;
   height: 1.1vw;
@@ -374,7 +371,7 @@ h3 {
   width: 1.55vw;
   border-radius: 14px;
   transform: none;
-  border: 2px solid #444;
+  border: 0.15vw solid #444;
   top: 170px;
 }
 
@@ -516,8 +513,8 @@ h3 {
   width: 4vw;
   height: 4vw;
   background: transparent;
-  border-top: 0.5vmin solid #666;
-  border-right: 0.5vmin solid #666;
+  border-top: 0.15vw solid #666;
+  border-right: 0.15vw solid #666;
   margin-left: 11vw;
   margin-right: 8vw;
   margin-top: 18vw;
@@ -586,10 +583,10 @@ h3 {
     transition: all 0.45s;
   }
 
-  &:hover {
-    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
-    animation: line 1s;
-  }
+  // &:hover {
+  //   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+  //   animation: line 1s;
+  // }
 
   &:hover a {
     color: #d94f5c;
@@ -659,7 +656,7 @@ h3 {
   position: absolute;
   top: 2vw;
   color: #262626;
-  letter-spacing: 4px;
+  letter-spacing: 0.2vw;
   transition: 0.5s;
 }
 
@@ -674,15 +671,15 @@ h3 {
   padding-left: 1vw;
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
   transition: 0.5s;
-  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -2vw 2vw 1vw rgba(0, 0, 0, 0.5);
 }
 #connect ul li a:before {
   content: "";
   position: absolute;
-  top: 10px;
-  left: -20px;
+  top: 1vw;
+  left: -2vw;
   height: 100%;
-  width: 20px;
+  width: 2vw;
   background: #b1b1b1;
   transform: 0.5s;
   transform: rotate(0deg) skewY(-45deg);
@@ -690,9 +687,9 @@ h3 {
 #connect ul li a:after {
   content: "";
   position: absolute;
-  bottom: -20px;
-  left: -10px;
-  height: 20px;
+  bottom: -2vw;
+  left: -1vw;
+  height: 2vw;
   width: 100%;
   background: #b1b1b1;
   transform: 0.5s;
@@ -700,8 +697,8 @@ h3 {
 }
 
 #connect ul li a:hover {
-  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  transform: rotate(-30deg) skew(25deg) translate(2vw, -1vw);
+  box-shadow: -5vw 5vw 5vw rgba(0, 0, 0, 0.5);
 }
 
 #connect ul li:hover .fa {
