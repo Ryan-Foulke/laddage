@@ -55,7 +55,7 @@
     <script>
         $(window).scroll(function() {
             console.log($(window).scrollTop());
-            if ($(window).scrollTop() > $(window).height()-60) {
+            if ($(window).scrollTop() > $(window).width()*.5) {
               $("#menu").fadeIn(100);
             } else {
               $("#menu").fadeOut(100);
@@ -68,17 +68,17 @@
             console.log($(window).scrollTop());
             var connect = document.getElementsByClassName("menu-item");
             console.log(connect);
-            if ($(window).scrollTop() > $(window).height()-60 && $(window).scrollTop() < $(window).height()*3) {
+            if ($(window).scrollTop() > $(window).width()*.5 && $(window).scrollTop() < $(window).width()*1.4) {
               connect[2].style.color = "#d94f5c";
             } else {
               connect[2].style = "#000000";
             }
-            if ($(window).scrollTop() > $(window).height()*3 && $(window).scrollTop() < $(window).height()*4) {
+            if ($(window).scrollTop() > $(window).width()*1.4 && $(window).scrollTop() < $(window).width()*1.75) {
               connect[1].style.color = "#d94f5c";
             } else {
               connect[1].style = "#000000";
             }
-            if ($(window).scrollTop() > $(window).height()*4) {
+            if ($(window).scrollTop() > $(window).width()*1.75) {
               connect[0].style.color = "#d94f5c";
             } else {
               connect[0].style = "#000000";
